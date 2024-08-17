@@ -2,10 +2,19 @@
 
 .mapa {
     padding-top: 20px;
-    background-color: $accent-color;
+    background-color: $orange-color;
   
     h2 {
+      
       margin-top: 20px;  
       margin-bottom: 20px;
+      
+    }
+  }
+
+  .textoContacto {
+
+    p{
+      padding: 0px 300px 0px 300px;
     }
   }

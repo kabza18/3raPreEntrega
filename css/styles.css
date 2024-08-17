@@ -25,6 +25,9 @@ main .seccion1, main .seccion3, main .seccion2, main .seccion4 {
   align-items: center;
   padding: 0 50px;
 }
+main .seccion1 p, main .seccion3 p, main .seccion2 p, main .seccion4 p {
+  padding: 0px 200px 0px 200px;
+}
 main .seccion1.seccion2, main .seccion1.seccion4, main .seccion3.seccion2, main .seccion3.seccion4, main .seccion2.seccion2, main .seccion2.seccion4, main .seccion4.seccion2, main .seccion4.seccion4 {
   flex-direction: row-reverse;
 }
@@ -224,6 +227,10 @@ footer {
   margin-bottom: 20px;
 }
 
+.textoContacto p {
+  padding: 0px 300px 0px 300px;
+}
+
 .seccionEquipo {
   display: flex;
   flex-direction: row;
@@ -275,10 +282,7 @@ footer {
   .seccionesTexto {
     flex-direction: column;
   }
-  .seccionesTexto .seccionTexto1,
-  .seccionesTexto .seccionTexto2,
-  .seccionesTexto .seccionTexto3,
-  .seccionesTexto .seccionTexto4 {
+  .seccionesTexto .seccionTexto1, .seccionesTexto .seccionTexto2, .seccionesTexto .seccionTexto3, .seccionesTexto .seccionTexto4 {
     width: 100%;
     padding: 8px;
   }
@@ -288,8 +292,7 @@ footer {
   .seccionContacto {
     flex-direction: column;
   }
-  .seccionContacto .formulario,
-  .seccionContacto .formimg {
+  .seccionContacto .formulario, .seccionContacto .formimg {
     width: 100%;
   }
   .seccionEquipo {

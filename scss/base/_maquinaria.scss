@@ -45,6 +45,6 @@
   }
 
   button {
-    @include button-style($accent-color, $white-color);
+    @include button-style($orange-color, $white-color);
   }
 }

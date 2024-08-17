@@ -18,10 +18,7 @@
   .seccionesTexto {
     flex-direction: column;
 
-    .seccionTexto1,
-    .seccionTexto2,
-    .seccionTexto3,
-    .seccionTexto4 {
+    .seccionTexto1, .seccionTexto2, .seccionTexto3, .seccionTexto4 {
       width: 100%;
       padding: 8px;
     }
@@ -34,8 +31,7 @@
   .seccionContacto {
     flex-direction: column;
 
-    .formulario,
-    .formimg {
+    .formulario, .formimg {
       width: 100%;
     }
   }
