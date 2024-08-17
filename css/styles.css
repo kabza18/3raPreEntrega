@@ -316,6 +316,12 @@ footer {
     width: 90%;
     height: 90%;
   }
+  .seccion1 p, .seccion3 p, .seccion2 p, .seccion4 p {
+    padding: 0px 0px 0px 0px;
+  }
+  .textoContacto p {
+    padding: 0px 0px 0px 0px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
