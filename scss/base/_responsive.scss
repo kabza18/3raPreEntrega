@@ -31,7 +31,8 @@
   .seccionContacto {
     flex-direction: column;
 
-    .formulario, .formimg {
+    .formulario,
+    .formimg {
       width: 100%;
     }
   }
@@ -60,20 +61,18 @@
     }
   }
 
-  .seccion1, .seccion3, .seccion2, .seccion4 {
-  
-
+  .textoContacto {
     p {
       padding: 0px 0px 0px 0px;
     }
   }
 
-  .textoContacto {
-
-    p{
-      padding: 0px 0px 0px 0px;
+  .seccion1, .seccion2, .seccion3, .seccion4 {
+    section {
+      padding: 20px 0px 0px 0px;
+      p {
+        padding: 0px 0px 0px 0px;
+      }
     }
   }
-
-  
 }

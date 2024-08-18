@@ -292,7 +292,8 @@ footer {
   .seccionContacto {
     flex-direction: column;
   }
-  .seccionContacto .formulario, .seccionContacto .formimg {
+  .seccionContacto .formulario,
+  .seccionContacto .formimg {
     width: 100%;
   }
   .seccionEquipo {
@@ -316,10 +317,13 @@ footer {
     width: 90%;
     height: 90%;
   }
-  .seccion1 p, .seccion3 p, .seccion2 p, .seccion4 p {
+  .textoContacto p {
     padding: 0px 0px 0px 0px;
   }
-  .textoContacto p {
+  .seccion1 section, .seccion2 section, .seccion3 section, .seccion4 section {
+    padding: 20px 0px 0px 0px;
+  }
+  .seccion1 section p, .seccion2 section p, .seccion3 section p, .seccion4 section p {
     padding: 0px 0px 0px 0px;
   }
 }
